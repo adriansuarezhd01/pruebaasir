@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Constructora Adrián y amigos - Inicio</title>
+    <link rel="stylesheet" type="text/css" href="/css/style-frame.css">
+    <link rel="stylesheet" type="text/css" href="/css/style-contacto.css">
+</head>
+<body bgcolor="#ffecb3">
+    <div class="izquierda">
+        <h2 class="primero-h2">¿Quiénes somos?</h2>
+            <br/>
+        <p class="primero-p">Desde El Calero, somos una constructora que lleva operando desde 2023, empresa promesa
+             que aspirará a ser pionera en un corto plazo de 5-6 años. pudiendo hacerle competencia
+            a grandes empresas como Lopesan, Pérez Moreno entre otros.</p>
+        </p>
+            <br/> 
+        <h2 class="segundo-h2">¿QUÉ SERVICIOS OFRECEMOS?</h2>
+        <ul class="lista">
+            <li class="martillo">Maquinaria de primera clase por precio bastante asequible, tales 
+                como taladros, martillos y accesorios.</li>
+            <li class="casa">Reformas de casas en mal estado o antiguas y construcciones
+                de oficinas y puestos de trabajos.</li>
+            <li class="billete">Somos flexibles con las cuotas y para la gente desfavorecida
+                hemos creado financiaciones de hasta...¡¡¡48 meses sin intereses!!!</li>
+            <li class="cv">Buscamos gente de varios sectores para que envien su Currículum
+                desde la página de contactos. Simplemente avísanos con su mensaje, que le haremos 
+                una llamada cuando podamos.</li>
+        </ul>
+    </div>
+    <div class="derecha">
+        <fieldset>
+            <legend>Contacta con Nosotros</legend>
+                <form action= "mailto:adriansuareznaranjo@gmail.com" method="post" enctype="text/plain">
+                    <label for="nombre">Nombre</label> <br/>
+                    <input id="nombre" placeholder="Su nombre" type="text" maxlength="20"/>
+                        <br/>
+                    <label for="apellidos">Apellidos</label> <br/>
+                    <input id="apellidos" placeholder="Sus apellidos" type="text" maxlength="50"/>
+                        <br/>
+                    <label for="telefono">Teléfono</label> <br/>
+                    <input id="telefono" placeholder="Su teléfono" type="tel" pattern="[0-9]{9}" required/>
+                        <br/>
+                    <br/>
+                    <label for="provincia">Provincia</label> <br/>
+                    <select required name="provincia" id="provincia" class="form-control">
+                        <option value="Álava">Álava/Araba</option>
+                        <option value="Albacete">Albacete</option>
+                        <option value="Alicante">Alicante</option>
+                        <option value="Almería">Almería</option>
+                        <option value="Asturias">Asturias</option>
+                        <option value="Ávila">Ávila</option>
+                        <option value="Badajoz">Badajoz</option>
+                        <option value="Baleares">Baleares</option>
+                        <option value="Barcelona">Barcelona</option>
+                        <option value="Burgos">Burgos</option>
+                        <option value="Cáceres">Cáceres</option>
+                        <option value="Cádiz">Cádiz</option>
+                        <option value="Cantabria">Cantabria</option>
+                        <option value="Castellón">Castellón/Castelló</option>
+                        <option value="Ceuta">Ceuta</option>
+                        <option value="Ciudad Real">Ciudad Real</option>
+                        <option value="Córdoba">Córdoba</option>
+                        <option value="Cuenca">Cuenca</option>
+                        <option value="Gerona/Girona">Gerona/Girona</option>
+                        <option value="Granada">Granada</option>
+                        <option value="Guadalajara">Guadalajara</option>
+                        <option value="Guipúzcoa/Gipuzkoa">Guipúzcoa/Gipuzkoa</option>
+                        <option value="Huelva">Huelva</option>
+                        <option value="Huesca">Huesca</option>
+                        <option value="Jaén">Jaén</option>
+                        <option value="La Coruña/A Coruña">La Coruña/A Coruña</option>
+                        <option value="La Rioja">La Rioja</option>
+                        <option value="Las Palmas">Las Palmas</option>
+                        <option value="León">León</option>
+                        <option value="Lérida/Lleida">Lérida/Lleida</option>
+                        <option value="Lugo">Lugo</option>
+                        <option value="Madrid">Madrid</option>
+                        <option value="Málaga">Málaga</option>
+                        <option value="Melilla">Melilla</option>
+                        <option value="Murcia">Murcia</option>
+                        <option value="Navarra">Navarra</option>
+                        <option value="Orense/Ourense">Orense/Ourense</option>
+                        <option value="Palencia">Palencia</option>
+                        <option value="Pontevedra">Pontevedra</option>
+                        <option value="Salamanca">Salamanca</option>
+                        <option value="Segovia">Segovia</option>
+                        <option value="Sevilla">Sevilla</option>
+                        <option value="Soria">Soria</option>
+                        <option value="Tarragona">Tarragona</option>
+                        <option value="Tenerife">Tenerife</option>
+                        <option value="Teruel">Teruel</option>
+                        <option value="Toledo">Toledo</option>
+                        <option value="Valencia">Valencia/València</option>
+                        <option value="Valladolid">Valladolid</option>
+                        <option value="Vizcaya/Bizkaia">Vizcaya/Bizkaia</option>
+                        <option value="Zamora">Zamora</option>
+                        <option value="Zaragoza">Zaragoza</option>
+                      </select>
+                        <br/>
+                    <br/>
+                      <label for="observaciones">Observaciones</label> <br/>
+                      <textarea name="observaciones" id="observaciones" cols="35" rows="8"></textarea>
+                      <br/>
+                    <br/>
+                        <input type="submit" value="Enviar" id="boton"/>
+                        <input type="reset" value="Borrar" id="boton"/>
+                </form>
+        </fieldset>
+    </div>
+</body>
+</html>
